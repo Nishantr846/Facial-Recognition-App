@@ -18,9 +18,11 @@ This project is a facial recognition system built with TensorFlow/Keras and feat
 ├── mobilefacenet_trained.h5# Trained model (tracked with Git LFS)
 ├── class_indices.json      # Mapping of class indices to names
 ├── requirements.txt        # Python dependencies
+├── download_images.py     # Automatically download the desired number of images from google
+├── image_crop.py           # Crop the images to train the model
 ├── dataset/                # Raw images for training
 ├── cropped/                # Cropped/processed images
-├── original/               # Original images
+├── original/               # Original images downloaded from google
 └── faceenv/                # Conda environment (optional)
 ```
 
